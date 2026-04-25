@@ -1,0 +1,194 @@
+<!doctype html>
+<html
+	lang="en"
+	data-base-path="."
+>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1"
+		/>
+		<meta
+			name="description"
+			content="Portfolio of Anna Dinius — software engineer focused on full-stack development, refactoring, and thoughtful product delivery."
+		/>
+		<title>Anna Dinius · Software Engineer</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="css/styles.css"
+		/>
+	</head>
+	<body data-current-nav="home">
+		<div class="shell">
+			<div id="site-header-mount"></div>
+
+			<main id="main-content">
+				<section class="hero">
+					<div class="container hero__grid">
+						<div>
+							<p class="eyebrow">Portfolio</p>
+							<h1>Building dependable software with clarity and care.</h1>
+							<p class="lede">
+								I am a software engineer and Honors student at Northern Kentucky
+								University, graduating in May 2026 with a BS in Applied Software
+								Engineering. I enjoy refactoring, debugging, and shipping
+								cohesive experiences across the stack.
+							</p>
+							<div class="hero__actions">
+								<a
+									class="btn btn--primary"
+									href="#projects"
+									>View projects</a
+								>
+								<a
+									class="btn btn--ghost"
+									href="#resume"
+									>Resume</a
+								>
+								<a
+									class="btn btn--ghost"
+									href="mailto:ae.dinius03@gmail.com"
+									>Contact</a
+								>
+							</div>
+						</div>
+						<aside
+							class="card"
+							aria-labelledby="highlights-title"
+						>
+							<h2 id="highlights-title">Highlights</h2>
+							<ul>
+								<li>
+									Front-end engineering internship experience (CSS architecture,
+									responsive layout)
+								</li>
+								<li>
+									Capstone delivery on a two-sided allergen and dietary
+									information platform
+								</li>
+								<li>
+									Cross-functional collaboration, research, prototyping, and
+									agile practice
+								</li>
+							</ul>
+						</aside>
+					</div>
+				</section>
+
+				<section
+					id="projects"
+					class="section section--tight"
+					aria-labelledby="projects-title"
+				>
+					<div class="container">
+						<h2
+							id="projects-title"
+							class="section__title"
+						>
+							Selected projects
+						</h2>
+						<p class="section__intro">
+							Deep dives live on dedicated pages. Source for the NomNom Safe
+							workstreams lives under the
+							<a
+								href="https://github.com/Nomnom-Safe"
+								rel="noopener noreferrer"
+								target="_blank"
+								>Nomnom-Safe</a
+							>
+							GitHub organization.
+						</p>
+						<div class="project-grid">
+							<a
+								class="project-card"
+								href="projects/nomnom-safe.html"
+							>
+								<span class="project-card__meta">Capstone</span>
+								<h3>NomNom Safe</h3>
+								<p>
+									Two-sided allergen and dietary information platform—business
+									tools in React and a Flutter consumer MVP—with source under
+									the Nomnom-Safe GitHub organization.
+								</p>
+								<span class="project-card__cta">Project overview →</span>
+							</a>
+							<a
+								class="project-card"
+								href="projects/build-a-better-book.html"
+							>
+								<span class="project-card__meta">Project · Honors</span>
+								<h3>Build a Better Book</h3>
+								<p>
+									Tactile learning aids for blind and visually impaired
+									children—3D modeling, printing, evaluation, and donation to
+									community partners.
+								</p>
+								<span class="project-card__cta">Project details →</span>
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<section
+					id="resume"
+					class="section"
+					aria-labelledby="resume-title"
+				>
+					<div class="container">
+						<h2
+							id="resume-title"
+							class="section__title"
+						>
+							Resume
+						</h2>
+						<p class="section__intro">
+							Preview the PDF in your browser or download a copy for offline
+							reading.
+						</p>
+						<div class="resume-panel">
+							<iframe
+								class="pdf-frame"
+								title="Anna Dinius resume PDF"
+								src="assets/dinius-anna-resume.pdf"
+							></iframe>
+							<aside class="resume-aside card">
+								<a
+									class="btn btn--primary"
+									href="assets/dinius-anna-resume.pdf"
+									download="Anna-Dinius-Resume.pdf"
+								>
+									Download PDF
+								</a>
+								<p class="note">
+									If the preview is blank in your browser, use the download
+									button or open the PDF directly—some mobile viewers handle
+									embedded PDFs inconsistently.
+								</p>
+							</aside>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<div id="site-footer-mount"></div>
+		</div>
+		<script
+			src="js/site.js"
+			defer
+		></script>
+	</body>
+</html>
